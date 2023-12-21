@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 #prints "Best School" ten times with while loop
-
 count=1
 while [ $count -le 10 ]
 do
