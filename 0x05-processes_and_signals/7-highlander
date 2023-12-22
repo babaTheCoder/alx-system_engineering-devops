@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+#prints indefinitely but receives a sigterm
+
+handle_sigterm() {
+	echo "I am invincible!!!"
+	exit 1
+}
+
+trap 'handle_sigterm' SIGTERM
+
+while true
+do
+	echo "To infinity and beyond"
+	sleep 2
+done
