@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #print out lines that contain "Bash"
-ps auxf | grep bash
 # shellcheck disable=SC2000
+ps auxf | grep bash
