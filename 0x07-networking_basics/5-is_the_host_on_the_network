@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#pings second command line argument
+
+ping $1 -c 5
